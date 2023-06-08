@@ -12,19 +12,47 @@
       <div class="container">
         <section class="formulario">
           <form>
-            <label for="name"
-              >Nombre:
-              <input type="text" id="name" placeholder="Juan" /><br /></label
-            ><label for="coname"
-              >Apellido:
-              <input type="text" id="coname" placeholder="Lopez" /><br
-            /></label>
-            <br />
-            <label for="modalidad-radio">Modalidad de la cursada:</label>
-            <input type="radio" id="modalidad-radio" />
-            <label for="modalidad-radio">On-Demand</label>
-            <input type="radio" id="modalidad" />
-            <label for="modalidad-radio">En Vivo</label>
+            <div class="data-user">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" />
+              <br />
+              <br />
+              <label for="coname"> Apellido:</label>
+              <input type="text" id="coname" />
+              <br />
+              <br />
+            </div>
+
+            <div class="data-mod">
+              <label for="modalidad-radio">Modalidad de la cursada:</label>
+              <input type="radio" id="modalidad-radio" />
+              <label for="modalidad-radio">On-Demand</label>
+              <input type="radio" id="modalidad" />
+              <label for="modalidad-radio">En Vivo</label>
+            </div>
+
+            <div class="data-mail">
+              <br />
+              <label for="">Correo: </label><input type="text" id="mail" />
+              <br />
+              <br />
+            </div>
+
+            <div class="data-legal">
+              <input type="checkbox" id="data-legal" /><label for="data-legal"
+                >Deseo recibir información sobre nuevos posteos en la plataforma
+                de Nucba.</label
+              ><br />
+              <br />
+              <input type="checkbox" id="data-legal" />
+              <label for="data-legal"
+                >Declaro que lei los terminos y condiciones y estoy listo para
+                convertirme en desarrollador web Full Stack.</label
+              >
+              <br />
+              <br />
+              <input type="submit" value="Enviar" />
+            </div>
           </form>
         </section>
       </div>
